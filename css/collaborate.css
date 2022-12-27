@@ -1,0 +1,77 @@
+.collaborate {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  padding: 3rem 0rem;
+}
+
+.ceoImg {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 5px solid #4db275;
+  background-size: cover;
+  background-image: url("../imgs/ceoImg.png");
+}
+
+.wrapperCeo {
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.cardCeo {
+  padding: 0rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 18%;
+  max-width: 230px;
+  min-width: 190px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.name {
+  margin: 1rem 0rem;
+  font-weight: 800;
+  line-height: 31.25px;
+  font-size: 20px;
+}
+
+.bio {
+  font-size: 16px;
+}
+
+b {
+  color: #4db275;
+}
+
+@media (max-width: 999px) {
+  .wrapperBtnColab {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapperColab {
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapperCeo {
+    padding-left: 0;
+  }
+}

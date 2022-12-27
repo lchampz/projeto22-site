@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+main {
+  font-family: "Lexend", sans-serif;
+}
+
+.banner {
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  padding: 10%;
+  align-items: center;
+}
+
+.title {
+  font-size: 120px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  width: 60%;
+}
+
+.paragraph {
+  font-size: 24px;
+  text-align: justify;
+  width: 70%;
+  line-height: 2rem;
+}
+
+.cta {
+  color: #4db275;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.line {
+  width: 23rem;
+  height: 1px;
+  margin-left: 34rem;
+  margin-bottom: 0.3rem;
+  position: absolute;
+  background-color: #4db275;
+  transition: all 0.3s ease-in;
+}
+
+@media (max-width: 999px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 80px;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .paragraph {
+    width: 100%;
+    margin-bottom: -5rem;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .cta {
+    padding: 1rem;
+    border: 1px solid #4db275;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0.3em 0.3em 0 0 #4db275, inset 0.3em 0.3em 0 0 #4db275;
+  }
+
+  .cta:hover {
+    color: white;
+    box-shadow: 0 0 0 0 #4db275, inset 6em 3.5em 0 0 #4db275;
+  }
+}

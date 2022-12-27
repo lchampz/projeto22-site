@@ -1,0 +1,123 @@
+@keyframes loop {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.about {
+  width: 100%;
+  padding-top: 1rem;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.textAbout {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 20%;
+}
+
+.titleAbout {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 2rem;
+  z-index: 10;
+}
+
+.pAbout {
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  line-height: 28px;
+}
+
+.pageSelector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  position: sticky;
+}
+
+.lineAbout {
+  width: 100%;
+  height: 2px;
+  background-color: #28c979;
+}
+
+.textSelector {
+  margin-top: -0.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: sticky;
+  top: 0;
+
+  color: #28c979;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.triangleSelector {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #28c979;
+  margin-top: -0.25rem;
+}
+
+.wrapperSelector {
+  display: flex;
+  width: 90%;
+  margin-right: 7rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.wrapperSelector:hover {
+  width: 110%;
+}
+
+.imgs {
+  position: relative;
+
+  width: 100%;
+
+  display: flex;
+  padding: 0.5rem;
+}
+
+.wrapperImgs {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  animation: loop 60s infinite;
+  padding-bottom: 2rem;
+}
+
+.aspas {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  z-index: 0;
+  margin-left: -30px;
+  margin-top: -10px;
+}
+
+@media (max-width: 999px) {
+  .pageSelector {
+    display: none;
+  }
+}

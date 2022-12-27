@@ -1,0 +1,108 @@
+.contact {
+  width: 100%;
+  display: flex;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 0, 0, 0.94) 0%,
+    rgba(6, 6, 6, 0.9212) 100%
+  );
+  flex-direction: column;
+}
+
+.infoContact {
+  display: flex;
+  padding-left: 10%;
+  flex-direction: column;
+}
+
+.wrapperContact {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+}
+
+.wrapperInfo {
+  padding-top: 2rem;
+}
+
+.pageSelectorContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  position: sticky;
+}
+
+.lineContact {
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.titleInfo {
+  display: none;
+}
+
+.textSelectorContact {
+  margin-top: -2.6rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: sticky;
+  top: 0;
+
+  color: #ffffff;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.pContact {
+  color: white;
+  letter-spacing: 0.04em;
+  line-height: 32px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.tContact {
+  color: #4db275;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1rem 1rem 1rem 0rem;
+}
+
+.iconContact {
+  margin-left: 5px;
+}
+
+@media (max-width: 999px) {
+  .wrapperContact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-left: 0;
+  }
+
+  .titleInfo {
+    display: flex;
+    color: white;
+    font-size: 40px;
+    padding: 2rem 0rem;
+    font-weight: 600;
+  }
+
+  .pageSelectorContact {
+    display: none;
+  }
+
+  .infoContact {
+    flex-wrap: wrap;
+    flex: 1;
+  }
+}

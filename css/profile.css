@@ -1,0 +1,97 @@
+.profile {
+  width: 100%;
+  padding: 1rem;
+  padding-top: 2rem;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+}
+
+.wrapperProfile {
+  display: flex;
+  padding-right: 3rem;
+  width: 100%;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.linkProfile {
+  color: black;
+}
+
+.cardProfile {
+  color: black;
+  min-height: 150px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-basis: 33%;
+  flex-grow: 1;
+  border: 3px solid white;
+
+  padding: 1rem;
+  padding-bottom: 2rem;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.cardProfile:hover {
+  color: black !important;
+}
+
+.cardProfile::after {
+  content: "";
+  transition: all 0.5s ease;
+  display: flex;
+}
+
+.cardProfile:hover::after {
+  content: "Confira Vagas ->";
+  color: #28c979;
+  display: flex;
+  align-items: flex-end;
+  bottom: 0;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.tProfile {
+  font-family: "Lexend", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.pProfile {
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+.pageSelectorProfile {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  position: sticky;
+}
+
+.textSelectorProfile {
+  margin-top: -0.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: sticky;
+  top: 0;
+
+  color: #28c979;
+  font-weight: 600;
+}
+
+@media (max-width: 999px) {
+  .pageSelectorProfile {
+    display: none;
+  }
+}
