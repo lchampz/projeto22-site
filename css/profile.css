@@ -48,7 +48,7 @@
 }
 
 .cardProfile:hover::after {
-  content: "Confira Vagas ->";
+  content: "confira vagas";
   color: #28c979;
   display: flex;
   align-items: flex-end;
@@ -75,7 +75,7 @@
   align-items: center;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 18%;
   position: sticky;
 }
 

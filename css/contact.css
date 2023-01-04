@@ -37,7 +37,7 @@
 
 .lineContact {
   width: 100%;
-  height: 2px;
+  height: 3px;
   background-color: #ffffff;
 }
 
@@ -73,9 +73,7 @@
   padding: 1rem 1rem 1rem 0rem;
 }
 
-.iconContact {
-  margin-left: 5px;
-}
+
 
 @media (max-width: 999px) {
   .wrapperContact {

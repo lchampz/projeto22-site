@@ -9,9 +9,9 @@
 
 .about {
   width: 100%;
-  padding-top: 1rem;
+  padding-top:5rem;
   display: flex;
-  background-color: white;
+  background-color: #FFFFFA;
   flex-direction: column;
 }
 
@@ -39,6 +39,12 @@
   margin-bottom: 1rem;
   font-weight: bolder;
   line-height: 28px;
+  font-weight: 500;
+font-size: 18px;
+}
+
+.pAbout:last-child{
+  padding-bottom: 3rem
 }
 
 .pageSelector {

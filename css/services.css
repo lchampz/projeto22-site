@@ -30,6 +30,7 @@
 
 .active {
   border-bottom: 2px solid white;
+  font-weight: 800;
 }
 
 .wrapperMenuServices ul li {
@@ -38,6 +39,7 @@
 }
 
 .textService {
+  font-weight: 700;
   display: none;
   opacity: 0;
   width: 100%;
@@ -46,6 +48,7 @@
 
 .wrapperText {
   display: flex;
+  padding-left: -4rem; 
   color: white;
   flex-direction: column;
   align-items: center;
@@ -64,8 +67,8 @@
   align-items: center;
   justify-content: center;
   align-items: center;
-  width: 30%;
-  margin-left: 50%;
+  width: 40%;
+  margin-left: 70%;
 }
 
 .lineService {
@@ -130,6 +133,7 @@
 
   .rowServices {
     flex-direction: column;
+    
   }
 
   .wrapperText {

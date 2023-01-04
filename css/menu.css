@@ -55,6 +55,11 @@ nav {
   cursor: pointer;
 }
 
+.imgLogo {
+  width: 200px;
+  height: 45px;
+}
+
 .mobile-menu div {
   width: 32px;
   height: 2px;
